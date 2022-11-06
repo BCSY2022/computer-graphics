@@ -553,7 +553,7 @@ int main(int argc, char** argv) {
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 	glutInitWindowPosition(100, 100);
 	glutInitWindowSize(600, 400);
-	glutCreateWindow("My New Year¡¯s Greeting Card");
+	glutCreateWindow("My New YearÂ¡Â¯s Greeting Card");
 	glutIdleFunc(when_in_mainloop);
 	glutDisplayFunc(display);
 	glutKeyboardFunc(keyboard_input);
